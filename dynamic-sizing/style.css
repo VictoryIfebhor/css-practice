@@ -1,0 +1,41 @@
+body {
+    margin: 0;
+    background-color: #ccc;
+}
+nav {
+    padding: 8px;
+    background-color: white;
+    box-shadow: 0 2px 2px #ccc;
+}
+#logo {
+    margin-left: 32px;
+    color: #0086ff;
+    font-size: 28px;
+    letter-spacing: -2px;
+    font-weight: 900;
+    font-family: sans-serif;
+}
+main {
+    margin: 16px;
+    text-align: center;
+}
+main section {
+    display: inline-block;
+}
+section img {
+    width: 100%;
+    max-width: 800px;
+    height: 300px;
+    margin: 0 auto;
+}
+#main-body {
+    width: 100%;
+    max-width: 800px;
+}
+section h1 {
+    font-size: 36px ;
+}
+section p {
+    font-size: 24px;
+    line-height: 1.3;
+}

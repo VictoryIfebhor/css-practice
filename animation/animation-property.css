@@ -1,0 +1,35 @@
+div {
+    width: 300px;
+    height: 300px;
+    margin: 48px;
+    border: 1px solid black;
+    padding: 10%;
+    box-sizing: border-box;
+
+    animation-name: design;
+    animation-duration: 3s;
+    /* animation-fill-mode will only have effect when there is a finite iteration count */
+    animation-fill-mode: forwards; /* the last mode will remain after the animation is done */
+    animation-iteration-count: 6;
+    animation-direction: alternate;
+    animation-timing-function: ease-in-out;
+}
+
+
+div:hover {
+    animation-play-state: paused;
+}
+
+@keyframes design {
+    0% {
+        font-size: 12px;
+        background-color: lightblue;
+        transform: rotateZ(0deg);
+    }
+    
+    100% {
+        font-size: 24px;
+        background-color: lightcoral;
+        transform: rotateZ(180deg) translateX(-50%);
+    }
+}

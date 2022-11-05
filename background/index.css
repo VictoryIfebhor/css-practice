@@ -1,0 +1,37 @@
+body {
+    margin: 0;
+}
+header {
+    width: 100%;
+    padding: 32px;
+    box-sizing: border-box;
+    height: 850px;
+    padding-left: 5%;
+    padding-right: 5%;
+    /* background-color: #a9e5e5; */
+    background-image: url(background-wallpapers-sphere.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+nav {
+    text-align: center;
+}
+
+nav span {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 500;
+    padding: 16px;
+
+}
+h1, p {
+    position: relative;
+    top: 150px;
+}
+h1 {
+    font-size: 80px;
+    margin-bottom: 0;
+}
+p {
+    margin-top: 10px;
+    font-size: 30px;
+}

@@ -1,0 +1,30 @@
+div {
+    height: 100px;
+    margin-bottom: 20px;
+    width: 200px
+}
+/* #div1 {
+    background: linear-gradient(to right, #f869d5, #5650de);
+}
+#div2 {
+    background: linear-gradient(45deg, #f869d5, #5650de);
+}
+#div3 {
+    background: linear-gradient(180deg, #f869d5, #5650de);
+} */
+
+#div1 {
+    background: radial-gradient(#f869d5, #5650de);
+}
+#div2 {
+    background: radial-gradient(circle, #f869d5, #5650de);
+}
+#div3 {
+    background: radial-gradient(circle closest-side, #f869d5, #5650de);
+}
+#div4 {
+    background: radial-gradient(circle farthest-corner, #f869d5, #5650de);
+}
+#div5 {
+    background: radial-gradient(circle at top left, #f869d5, #5650de)
+}

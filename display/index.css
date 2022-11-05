@@ -1,0 +1,31 @@
+h1 {
+    text-align: center;
+}
+.image-item {
+    width: 400px;
+    height: 400px;
+}
+.image-wrapper {
+    display: inline;
+}
+.menu-item {
+    display: block;
+    /* display: none; */
+    /* visibility: hidden; */
+    /* 
+        Setting display to none will totally remove the element
+        Setting visibility to hidden will only hide the element. It will still take up space in the page rendered.
+     */
+}
+#span-1 {
+    /* width and height will not work for inline elements */
+    background-color: red;
+    width: 120px;
+    height: 50px;
+}
+#span-2 {
+    background-color: red;
+    width: 120px;
+    height: 50px;
+    display: inline-block;
+}

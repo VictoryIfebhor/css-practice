@@ -1,0 +1,46 @@
+button {
+    padding: 8px 16px;
+    border-radius: 8px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+.btn-social-media {
+    border-radius: 4px;
+    color: white;
+}
+#btn-login {
+    background-color: lightblue;
+}
+#btn-login:hover {
+    background-color: darkblue;
+    color: white;
+}
+#btn-signup {
+    border: 2px solid lightblue;
+    background-color: white;
+}
+#btn-signup:hover {
+    background-color: darkblue;
+    color: white;
+}
+#btn-disabled {
+    background-color: lightblue;
+    cursor: not-allowed;
+    opacity: 0.6;
+}
+#btn-fb {
+    background-color: #3b5993;
+}
+#btn-google {
+    background-color: #dd4b3d;
+}
+#btn-github {
+    background-color: #000;
+}
+div {
+    padding-bottom: 20px;
+}
+.label {
+    padding-left: 8px;
+}

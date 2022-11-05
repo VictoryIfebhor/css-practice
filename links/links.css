@@ -1,0 +1,24 @@
+body {
+    margin: 0;
+}
+#topbar {
+    background-color: lightblue;
+    padding: 24px 48px;
+}
+.menu-link {
+    font-size: 24px;
+    margin-right: 24px;
+    text-decoration: none;
+}
+.menu-link:link {
+    color: blue;
+}
+.menu-link:visited {
+    color: purple;
+}
+.menu-link:hover {
+    color: red;
+}
+.menu-link:active {
+    color: white;
+}

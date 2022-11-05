@@ -1,0 +1,66 @@
+body {
+    margin: 0;
+    background-color: #f2f6ff;
+}
+#topbar {
+    background-color: white;
+    border: 0;
+    border-bottom: 1px solid #ccc;
+    padding: 12px 80px;
+    box-shadow: 0 2px 2px #aaa;
+    position: sticky;
+    top: 0;
+}
+#logo {
+    color: blue;
+    font-weight: 800;
+    font-size: 24px;
+    font-family: sans-serif;
+    letter-spacing: -1;
+}
+.menu-item {
+    padding: 8px;
+    position: relative;
+    float: right;
+}
+#article-wrapper {
+    width: 1200px;
+    margin: 32px auto;
+}
+article {
+    margin-bottom: 24px;
+    background-color: white;
+    border: 1px solid #ccc;
+    box-shadow: 0 2px 2px #aaa;
+    padding: 24px 40px;
+    text-align: justify;
+    font-size: 24px;
+    border-radius: 8px;
+    line-height: 1.4;
+}
+h3 {
+    text-align: center;
+    font-size: 32px;
+    font-weight: 1000;
+    font-family: sans-serif;
+}
+/* The pseudo elements below work for only block elements */
+article p::first-line {
+    color: lightcoral;
+}
+article p::first-letter {
+    color: green;
+    font-size: 32px;
+}
+article p::selection {
+    background-color: goldenrod;
+    color: black;
+}
+/* article p::before {
+    content: url(
+        "smiley.png"
+    );
+} */
+article p::after {
+    content: url("smiley.png");
+}
